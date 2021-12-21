@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Grid Page Ability"
+    },
+    {
+      "name": "title_text",
+      "value": "GridPage"
+    },
+    {
+      "name": "grid_item_text",
+      "value": "Text"
+    },
+    {
+      "name": "grid_text",
+      "value": "Grid"
+    },
+    {
+      "name": "grid_layout_text",
+      "value": "Drag, Add amd Delete Your Items Here"
+    },
+    {
+      "name": "bottom_btntxt",
+      "value": "Add"
+    },
+    {
+      "name": "bottom_button",
+      "value": "Delete"
+    }
+  ]
+}

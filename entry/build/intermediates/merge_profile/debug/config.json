@@ -1,0 +1,55 @@
+{
+    "app": {
+        "bundleName": "com.devcorps.testgrid",
+        "vendor": "devcorps",
+        "apiVersion": {
+            "compatible": 5,
+            "target": 5,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MyApplication",
+        "deviceType": [
+            "phone",
+            "tablet"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": false
+        },
+        "abilities": [
+            {
+                "name": "com.devcorps.testgrid.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "portrait",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "homeAbility": true
+            }
+        ],
+        "mainAbility": "com.devcorps.testgrid.MainAbility",
+        "package": "com.devcorps.testgrid"
+    }
+}
